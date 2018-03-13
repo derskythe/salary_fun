@@ -63,9 +63,9 @@ namespace SalaryVote.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bob {
+        internal static System.Drawing.Bitmap KapitalBank {
             get {
-                object obj = ResourceManager.GetObject("bob", resourceCulture);
+                object obj = ResourceManager.GetObject("KapitalBank", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

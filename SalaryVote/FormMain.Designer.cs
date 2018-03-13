@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.lblQuestion = new System.Windows.Forms.Label();
             this.btnYes = new System.Windows.Forms.Button();
@@ -40,10 +39,10 @@
             // pictureBox
             // 
             this.pictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox.Image")));
-            this.pictureBox.Location = new System.Drawing.Point(231, 12);
+            this.pictureBox.Image = global::SalaryVote.Properties.Resources.KapitalBank;
+            this.pictureBox.Location = new System.Drawing.Point(167, 12);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(163, 323);
+            this.pictureBox.Size = new System.Drawing.Size(300, 70);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox.TabIndex = 0;
             this.pictureBox.TabStop = false;
@@ -53,7 +52,7 @@
             // 
             this.lblQuestion.AutoSize = true;
             this.lblQuestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblQuestion.Location = new System.Drawing.Point(138, 385);
+            this.lblQuestion.Location = new System.Drawing.Point(142, 123);
             this.lblQuestion.Name = "lblQuestion";
             this.lblQuestion.Size = new System.Drawing.Size(362, 25);
             this.lblQuestion.TabIndex = 1;
@@ -61,7 +60,7 @@
             // 
             // btnYes
             // 
-            this.btnYes.Location = new System.Drawing.Point(200, 498);
+            this.btnYes.Location = new System.Drawing.Point(204, 236);
             this.btnYes.Name = "btnYes";
             this.btnYes.Size = new System.Drawing.Size(75, 23);
             this.btnYes.TabIndex = 2;
@@ -71,7 +70,7 @@
             // 
             // btnNo
             // 
-            this.btnNo.Location = new System.Drawing.Point(356, 498);
+            this.btnNo.Location = new System.Drawing.Point(360, 236);
             this.btnNo.Name = "btnNo";
             this.btnNo.Size = new System.Drawing.Size(75, 23);
             this.btnNo.TabIndex = 3;
@@ -85,7 +84,7 @@
             // 
             this.lblResult.AutoSize = true;
             this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblResult.Location = new System.Drawing.Point(95, 385);
+            this.lblResult.Location = new System.Drawing.Point(99, 123);
             this.lblResult.Name = "lblResult";
             this.lblResult.Size = new System.Drawing.Size(436, 25);
             this.lblResult.TabIndex = 4;
@@ -96,7 +95,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(647, 533);
+            this.ClientSize = new System.Drawing.Size(647, 297);
             this.Controls.Add(this.btnNo);
             this.Controls.Add(this.btnYes);
             this.Controls.Add(this.lblQuestion);
